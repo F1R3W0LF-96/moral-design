@@ -2,7 +2,7 @@ import Image from "next/image";
 import React, { useState } from "react";
 import PopupModal from "../common/PopupModal";
 import Signup from "../loginSignup/Signup";
-
+import Logo from "../../assets/Images/favicon.png";
 function HeroSection() {
   const [signupFlag, setSignupFlag] = useState(false);
 
@@ -39,10 +39,10 @@ function HeroSection() {
           <nav class="flex items-center justify-between" aria-label="Global">
             <div class="flex lg:flex-1">
               <a href="#" class="-m-1.5 p-1.5">
-                <span class="sr-only">Your Company</span>
+                <span class="sr-only">Morall dev</span>
                 <Image
-                  class="h-8"
-                  src="https://tailwindui.com/img/logos/mark.svg"
+                  class="h-16 w-16"
+                  src={Logo}
                   alt="image"
                   width={100}
                   height={100}
@@ -73,20 +73,29 @@ function HeroSection() {
               </button>
             </div>
             <div class="hidden lg:flex lg:gap-x-12">
-              <a href="#" class="text-sm font-semibold leading-6 text-gray-900">
-                Product
+              <a
+                href="https://moraldev.com"
+                class="text-sm font-semibold leading-6 text-gray-900"
+              >
+                Home
+              </a>
+
+              <a
+                href="#services"
+                class="text-sm font-semibold leading-6 text-gray-900"
+              >
+                services
+              </a>
+
+              <a
+                href="#team"
+                class="text-sm font-semibold leading-6 text-gray-900"
+              >
+                Team
               </a>
 
               <a href="#" class="text-sm font-semibold leading-6 text-gray-900">
-                Features
-              </a>
-
-              <a href="#" class="text-sm font-semibold leading-6 text-gray-900">
-                Marketplace
-              </a>
-
-              <a href="#" class="text-sm font-semibold leading-6 text-gray-900">
-                Company
+                Portfolio
               </a>
             </div>
             <div
@@ -94,7 +103,7 @@ function HeroSection() {
               onClick={() => setSignupFlag(!signupFlag)}
             >
               <a href="#" class="text-sm font-semibold leading-6 text-gray-900">
-                Log in <span aria-hidden="true">&rarr;</span>
+                Contact Us <span aria-hidden="true">&rarr;</span>
               </a>
             </div>
           </nav>
@@ -185,7 +194,7 @@ function HeroSection() {
             <div class="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
               <div class="hidden sm:mb-8 sm:flex sm:justify-center">
                 <div class="relative rounded-full py-1 px-3 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
-                  Announcing our next round of funding.{" "}
+                  Taking your Business Solutions Digitally.{" "}
                   <a href="#" class="font-semibold text-indigo-600">
                     <span class="absolute inset-0" aria-hidden="true"></span>
                     Read more <span aria-hidden="true">&rarr;</span>
@@ -197,19 +206,17 @@ function HeroSection() {
                   Everything you need for work, all in one place
                 </h1>
                 <p class="mt-6 text-lg leading-8 text-gray-600">
-                  Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure
-                  qui lorem cupidatat commodo. Elit sunt amet fugiat veniam
-                  occaecat fugiat aliqua.
+                  CMS, ERP,Ecommerce, Mobile Apps, Static and Dynamic Websites.
                 </p>
                 <div class="mt-10 flex items-center justify-center gap-x-6">
                   <a
-                    href="#"
+                    href="mailto:info@moraldev.com"
                     class="rounded-md bg-indigo-600 px-3.5 py-1.5 text-base font-semibold leading-7 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                   >
-                    Get started
+                    Contact us
                   </a>
                   <a
-                    href="#"
+                    href="#services"
                     class="text-base font-semibold leading-7 text-gray-900"
                   >
                     Learn more <span aria-hidden="true">→</span>
@@ -247,7 +254,7 @@ function HeroSection() {
         </main>
       </div>
       {signupFlag && (
-        <PopupModal>
+        <PopupModal handleClose={() => setSignupFlag(false)}>
           <Signup handleClose={() => setSignupFlag(false)} />
         </PopupModal>
       )}
