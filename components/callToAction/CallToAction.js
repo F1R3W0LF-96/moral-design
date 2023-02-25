@@ -8,26 +8,26 @@ function CallToAction() {
           <div class="-mx-4 flex flex-wrap items-center">
             <div class="w-full px-4 lg:w-1/2">
               <span class="mb-2 text-base font-semibold text-white">
-                Find Your Next Dream App
+                Find Your Business Solutions
               </span>
               <h2 class="mb-6 text-3xl font-bold leading-tight text-white sm:mb-8 sm:text-[38px] lg:mb-0">
-                Get started with <br class="xs:block hidden" />
-                our free trial
+                Get conntected with <br class="xs:block hidden" />
+                us
               </h2>
             </div>
             <div class="w-full px-4 lg:w-1/2">
               <div class="flex flex-wrap lg:justify-end">
                 <a
-                  href="javascript:void(0)"
+                  href="tel:+918050849022"
                   class="hover:text-primary my-1 mr-4 inline-block rounded bg-white bg-opacity-[15%] py-4 px-6 text-base font-medium text-white transition hover:bg-opacity-100 md:px-9 lg:px-6 xl:px-9"
                 >
-                  Get Pro Version
+                  Call us
                 </a>
                 <a
-                  href="javascript:void(0)"
+                  href="mailto:info@moraldev.com"
                   class="my-1 inline-block rounded bg-[#13C296] py-4 px-6 text-base font-medium text-white transition hover:bg-opacity-90 md:px-9 lg:px-6 xl:px-9"
                 >
-                  Start Free Trial
+                  Mail Us
                 </a>
               </div>
             </div>

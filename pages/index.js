@@ -17,10 +17,10 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Moral Design</title>
+        <title>Moral Dev</title>
         <meta
           name="description"
-          content="Moral Design Software Development Company"
+          content="Moral Dev Software Development Company"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
