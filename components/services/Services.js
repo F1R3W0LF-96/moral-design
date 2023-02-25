@@ -2,7 +2,7 @@ import React from "react";
 
 function Services() {
   return (
-    <div>
+    <div id="services">
       <section class="pt-20 pb-12 lg:pt-[120px] lg:pb-[90px]">
         <div class="container mx-auto">
           <div class="-mx-4 flex flex-wrap">
@@ -40,11 +40,11 @@ function Services() {
                   </svg>
                 </div>
                 <h4 class="text-dark mb-3 text-xl font-semibold">
-                  Refreshing Design
+                  Website Development
                 </h4>
                 <p class="text-body-color">
-                  We dejoy working with discerning clients, people for whom
-                  qualuty, service, integrity & aesthetics.
+                  We provide complete end to end solutions, form Frontend to
+                  Backend to Deployment.
                 </p>
               </div>
             </div>
@@ -67,11 +67,11 @@ function Services() {
                   </svg>
                 </div>
                 <h4 class="text-dark mb-3 text-xl font-semibold">
-                  Based on Tailwind CSS
+                  Mobile Applications
                 </h4>
                 <p class="text-body-color">
-                  We dejoy working with discerning clients, people for whom
-                  qualuty, service, integrity & aesthetics.
+                  We build all mobile apps Android and iOS with resects to all
+                  sectors.
                 </p>
               </div>
             </div>
@@ -94,11 +94,10 @@ function Services() {
                   </svg>
                 </div>
                 <h4 class="text-dark mb-3 text-xl font-semibold">
-                  100+ Components
+                  Cloud Solutions
                 </h4>
                 <p class="text-body-color">
-                  We dejoy working with discerning clients, people for whom
-                  qualuty, service, integrity & aesthetics.
+                  Cloud Architecture and entire Data management.
                 </p>
               </div>
             </div>
@@ -121,11 +120,11 @@ function Services() {
                   </svg>
                 </div>
                 <h4 class="text-dark mb-3 text-xl font-semibold">
-                  Speed Optimized
+                  Websites & Apps Maintenance
                 </h4>
                 <p class="text-body-color">
-                  We dejoy working with discerning clients, people for whom
-                  qualuty, service, integrity & aesthetics.
+                  Maintenaning applicarions is all about finding bugs and
+                  optimizations.
                 </p>
               </div>
             </div>
@@ -148,11 +147,11 @@ function Services() {
                   </svg>
                 </div>
                 <h4 class="text-dark mb-3 text-xl font-semibold">
-                  Fully Customizable
+                  Digital Marketing
                 </h4>
                 <p class="text-body-color">
-                  We dejoy working with discerning clients, people for whom
-                  qualuty, service, integrity & aesthetics.
+                  Developing Applications is no use if it have not reached to
+                  respective customers.
                 </p>
               </div>
             </div>
@@ -175,11 +174,11 @@ function Services() {
                   </svg>
                 </div>
                 <h4 class="text-dark mb-3 text-xl font-semibold">
-                  Regular Updates
+                  Other Serives
                 </h4>
                 <p class="text-body-color">
-                  We dejoy working with discerning clients, people for whom
-                  qualuty, service, integrity & aesthetics.
+                  We provide other services realted to scaling the business
+                  digitally.
                 </p>
               </div>
             </div>

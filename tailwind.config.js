@@ -26,6 +26,18 @@ module.exports = {
           800: "#1e40af",
           900: "#1e3a8a",
         },
+        secondary: {
+          50: "#FFF8EF",
+          100: "#FEEFDB",
+          200: "##FEE2BF",
+          300: "#DCB93",
+          400: "#FAB560",
+          500: "#F6AF3B",
+          600: "#EBAD25",
+          700: "#D8A71D",
+          800: "#AF8D1E",
+          900: "#8A6E1E",
+        },
       },
     },
     fontFamily: {
